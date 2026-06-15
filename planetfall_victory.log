@@ -1,0 +1,177 @@
+Phase 6: score
+Your score would be 48 (out of 80 points). It is Day 2 of your adventure.
+Current Galactic Standard Time (adjusted to your local day-cycle) is 4671.
+This score gives you the rank of Lieutenan
+Mini: type 384
+
+
+You notice the walls of the booth sliding away in all directions, followed by a
+momen
+=== SPECK ===
+  1: fire laser at speck
+
+
+The beam just misses the speck!
+  2: fire laser at speck
+
+
+A good shot, but just a little wide of the target.
+  3: fire laser at speck
+
+
+The speck is hit by the beam! It sizzles a little, but isn't destroyed yet.
+
+The laser feels 
+  4: fire laser at speck
+
+
+A near miss!
+  5: fire laser at speck
+
+
+A near miss!
+  6: fire laser at speck
+
+
+A near miss!
+
+The laser feels somewhat warm now, but that doesn't seem to affect its
+perform
+  7: fire laser at speck
+
+
+A near miss!
+  8: fire laser at speck
+
+
+A near miss!
+  9: fire laser at speck
+
+
+A near miss!
+
+The laser feels very warm now, but that doesn't seem to affect its performance
+  10: fire laser at speck
+
+
+The beam hits the speck again! This time, it vaporizes into a fine cloud of ash.
+The relay slo
+  >>> VAPORIZED!
+=== MICROBE ===
+S: s
+
+
+Suddenly, with a loud plop, a giant elephant-sized monster lands on the strip
+just in front 
+  M1: fire laser at microbe
+
+
+The laser beam strikes the microbe. The beam slices through the microbe's skin!
+A tremendous
+  >>> WARM!
+Throw: throw laser over edge
+
+
+As the laser flies over the edge of the strip, the hungry microbe lunges 
+Mask on!
+Gas: press red button
+
+
+You hear a hissing from beyond the door to the west.
+S1: open office door
+
+
+The office door is now open.
+Through the open doorway you
+S2: w
+
+
+Bio Lab
+This is a huge laboratory filled with many biological experiment
+S3 (try w without lab door): w
+
+
+The lab door is closed.
+  BLOCKED! Opening lab door...
+  Open: open lab door
+
+
+The door opens.
+The air is filled with mist, which is affect
+  W: w
+
+
+Bio Lock East
+
+A recorded announcement blares from the public address s
+S5: w
+
+
+Bio Lock West
+
+The door at the eastern end of the bio-lock closes silen
+S6: open door
+
+
+The door opens.
+
+The mutants are almost upon you now!
+ELEVATOR (long path): press button
+
+
+The elevator door closes just as the monsters reach it! You slump back against
+the wall, exhausted from the chase. The elevator begins to move downward.
+Wait 1: wait
+
+
+Time passes...
+Wait 2: wait
+
+
+Time passes...
+Wait 3: wait
+
+
+Time passes...
+
+The elevator door opens onto a room to the north.
+
+=== FULL FINAL OUTPUT (len=1737) ===
+n
+
+
+Cryo-Anteroom
+The elevator closes as you leave it, and you find yourself in a small, chilly
+room. To the north, through a wide arch, is an enormous chamber lined from floor
+to ceiling with thousands of cryo-units. You can see similar chambers beyond,
+and your mind staggers at the thought of the millions of individuals asleep for
+countless centuries.
+
+In the anteroom where you stand is a solitary cryo-unit, its cover frosted. Next
+to the cryo-unit is a complicated control panel.
+
+A door slides open and a medical robot glides in. It opens the cryo-unit and
+administers an injection to its inhabitant. As the robot glides away, a figure
+rises from the cryo-unit -- a handsome, middle-aged woman with flowing red hair.
+She spends some time studying readouts from the control panel.
+
+As other cryo-units in the chambers beyond begin opening, the woman turns to
+you, bows gracefully, and speaks in a beautiful, lilting voice. "I am Veldina,
+leader of Resida. Thanks to you, the cure has been discovered, and the planetary
+systems repaired. We are eternally grateful."
+
+"Unfortunately, a second ship from your Stellar Patrol has been destroyed by our
+malfunctioning meteor defenses. I fear that you are stranded on Resida, possibly
+forever. However, we show our gratitude by offering you an unlimited bank
+account and a house in the country."
+
+Your score would be 74 (out of 80 points). It is Day 2 of your adventure.
+Current Galactic Standard Time (adjusted to your local day-cycle) is 5796.
+This score gives you the rank of Cluster Admiral.
+
+Would you like to restart the game from the beginning, restore a saved game
+position, or end this session of the game? (Type RESTART, RESTORE, or QUIT.)
+
+>
+=== END OF OUTPUT ===
+No remaining buffer
