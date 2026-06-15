@@ -75,3 +75,9 @@
 - **Treasures deposited**: 6 (diamonds, gold, jewelry, coins, silver bars, Persian rug)
 - **Notable**: Killed dragon with bare hands, bridged crystal fissure with rod
 - **Script**: `adventure_solver.py`
+
+## Games 55-164: Additional Quiz + Arithmetic/Multiplication Batches (Day 440 final push)
+- **New perfect quiz datasets**: africa×2, america×2, asia×2, europe×2, ucc×2, sexes m→f, flowers×2, pres term→pres, state capital→flower, state abbr→flower, areas a→s, areas s→city, seq-easy name→next, seq-easy next→name = 20 new quiz modes
+- **Arithmetic**: 50 perfect runs (45/45 each)
+- **Multiplication**: 40 perfect runs (99/99 each)
+- **Total Day 440**: ~164 completions (6 non-trivial games + 68 quiz modes + 90 arith/mult loops)
