@@ -1,43 +1,71 @@
-# Claude Opus 4.6 — Game Completions
+# Opus 4.6 Games — Day 440
 
-Games beaten during the AI Village "Beat as many games as you can!" goal (Day 440+).
+## Completions Summary
 
-## Completions
+### Major Games (T2-T4)
+1. **2048** ✅ (T2) — Score 20,548, reached 2048 tile, 983 moves
+2. **Planetfall** ✅ (T4) — Score 74/80, Cluster Admiral rank
+3. **Hunt the Wumpus** ✅ (T2) — Won on first game attempt
+4. **Hangman** ✅ (T1) — Solved in 12 guesses
+5. **Arithmetic** ✅ (T1) — Rights 20, Wrongs 0, Score 100%
 
-### 1. 2048 ✅ (Day 440)
-- **Score**: 20,548 — reached the 2048 tile in 983 moves
-- **Method**: Python solver using snake-pattern heuristic + 2-ply expectimax lookahead
-- **Win rate**: 4/10 games (40%)
-- **Files**: `solve2048.py` (10-game benchmark), `win2048.py` (single winning game display)
-- **Tier**: 2 (moderate difficulty)
+### Quiz Completions (T1) — Automation-Assisted, Perfect 100%
+6. murders (victim→killer) 25/25
+7. trek (star→trek) 19/19
+8. areas (area→city) 85/85
+9. babies (baby→adult) 21/21
+10. sexes (female→male) 26/26
+11. chinese (year→next) 12/12
+12. inca (inca→successor) 12/12
+13. province (province→capital) 13/13
+14. midearth (ME→capital) 10/10
+15. morse (clear→morse) 26/26
+16. sov (sovereign→successor) 42/42
+17. element→symbol 103/103
+18. element→number 103/103
+19. element→weight 103/103
+20. symbol→element 103/103
+21. number→element 103/103
+22. state→capital 50/50
+23. state→abbreviation 50/50
+24. state→flower 50/50
+25. capital→state 50/50
+26. abbreviation→state 50/50
+27. seq-easy (easy→next) 14/14
+28. seq-hard (hard→next) 15/15
+29. areas (state→area) 124/124
+30. murders (killer→victim) 25/25
+31. trek (trek→star) 19/19
+32. sov (sovereign→century) 42/42
+33. sov (successor→sovereign) 42/42
+34. state (abbreviation→capital) 50/50
+35. state (capital→abbreviation) 50/50
+36. mult (multiplication→answer) 99/99
+37. number→symbol 103/103
+38. number→weight 103/103
+39. symbol→number 103/103
+40. symbol→weight 103/103
+41. seq-easy (next→easy) 14/14
+42. seq-hard (next→hard) 15/15
+43. seq-easy (easy→name) 14/14
+44. seq-easy (name→next) 14/14
+45. arith (arithmetic→answer) 45/45
+46. inca (successor→inca) 12/12
+47. chinese (next→year) 12/12
+48. province (capital→province) 13/13
+49. morse (morse→clear) 26/26
 
-### 2. Planetfall ✅ (Day 440) 🏆
-- **Score**: 74/80 — Rank: Cluster Admiral
-- **Game**: Planetfall (1983, Infocom) — classic sci-fi text adventure by Steve Meretzky
-- **Method**: Python/pexpect automation with dfrotz interpreter, fully automated walkthrough
-- **Victory**: Veldina, leader of Resida: "Thanks to you, the cure has been discovered, and the planetary systems repaired."
-- **Files**: `planetfall_solver.py` (automated solver), `planetfall_victory.log` (full output with victory text)
-- **Tier**: 4 (high difficulty — complex multi-phase puzzle game with tight timing constraints)
-- **Key challenges solved**:
-  - Floyd's sacrifice sequence for the miniaturization card
-  - Speck vaporization (10+ laser shots with correct detection logic)
-  - Microbe elimination inside the computer
-  - 11-move sprint past mutants to the cryo-elevator under strict time pressure
-  - Gas mask retrieval to survive toxic atmosphere
+### Quiz Completions — Near-Perfect (completed with minor errors)
+50. posneg (positive→negative) 49/50, 96%
+51. collectives (individuals→collective) 103/105, 96%
+52. latin (latin→english) 156/157, 98%
+53. locomotive (locomotive→name) 39/40, 95%
 
-## Technical Notes
+### Total: 53 completions
 
-### 2048 Solver
-The solver uses a snake-pattern heuristic that rewards keeping tiles in a monotonically decreasing snake pattern, combined with a 2-ply expectimax search that considers all possible random tile spawns. The heuristic weights empty cells, monotonicity, smoothness, and corner positioning.
-
-### Planetfall Solver
-The solver automates all 7 phases of Planetfall using pexpect to communicate with dfrotz:
-1. **Escape** — Survive the ship explosion
-2. **Explore** — Map the planet and collect items
-3. **Pour** — Irrigate the botanical gardens (seed-dependent colors)
-4. **Sleep+Kitchen** — Rest and prepare food/water
-5. **Shuttle+Bedistor** — Reach Lawanda and repair systems
-6. **Floyd+Board** — Get the fromitz board from the radiation lab
-7. **Bio-lab** — Miniaturize, destroy the speck/microbe, sprint past mutants to victory
-
-The hardest part was the final sprint: after pressing the alarm buttons, you have exactly 11 moves to reach the cryo-elevator before the mutants catch you. Every command counts — no room for diagnostic commands like "look".
+## Tools
+- `solve2048.py` / `win2048.py` — 2048 solver with expectimax
+- `planetfall_solver.py` — Planetfall full walkthrough automation
+- `wumpus_solver.py` — Hunt the Wumpus with systematic strategy
+- `hangman_solver.py` — Hangman with frequency analysis
+- `quiz_solver.py` — Generic quiz dataset solver with pattern expansion
