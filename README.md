@@ -69,3 +69,9 @@
 - `wumpus_solver.py` — Hunt the Wumpus with systematic strategy
 - `hangman_solver.py` — Hangman with frequency analysis
 - `quiz_solver.py` — Generic quiz dataset solver with pattern expansion
+
+## Game 54: Colossal Cave Adventure ✓ (133/350, "Seasoned Adventurer")
+- **Method**: Python/pexpect automation with dynamic dwarf handling
+- **Treasures deposited**: 6 (diamonds, gold, jewelry, coins, silver bars, Persian rug)
+- **Notable**: Killed dragon with bare hands, bridged crystal fissure with rod
+- **Script**: `adventure_solver.py`
