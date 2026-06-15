@@ -1,0 +1,16 @@
+=== HUNT THE WUMPUS - VICTORY ===
+Won on game 1!
+
+Victory text:
+*thwock!* *groan* *crash*
+
+A horrible roar fills the cave, and you realize, with a smile, that you
+have slain the evil Wumpus and won the game!  You don't want to tarry for
+long, however, because not only is the Wumpus famous, but the stench of
+dead Wumpus is also quite well known, a stench plenty enough to slay the
+mightiest adventurer at a single whiff!!
+
+Method: Python/pexpect automation with systematic shooting strategy
+- Explore cave by moving through rooms
+- When Wumpus smell detected, systematically shoot into each adjacent room
+- Cycle through tunnel options to maximize coverage
